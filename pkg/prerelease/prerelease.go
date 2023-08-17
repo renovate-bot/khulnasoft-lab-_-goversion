@@ -3,7 +3,7 @@ package prerelease
 import (
 	"reflect"
 
-	"github.com/khulnasoft-labs/goversion/pkg/part"
+	"github.com/khulnasoft-lab/goversion/pkg/part"
 )
 
 func Compare(p1, p2 part.Parts) int {
