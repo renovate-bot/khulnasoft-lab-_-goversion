@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/khulnasoft-labs/goversion/pkg/semver"
+	"github.com/khulnasoft-lab/goversion/pkg/semver"
 )
 
 func TestCollection(t *testing.T) {
