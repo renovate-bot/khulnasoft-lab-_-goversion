@@ -7,7 +7,7 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/khulnasoft-labs/goversion/pkg/semver"
+	"github.com/khulnasoft-lab/goversion/pkg/semver"
 )
 
 func main() {

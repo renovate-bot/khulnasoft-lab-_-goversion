@@ -1,8 +1,8 @@
 # goversion
 
-![Test](https://github.com/khulnasoft-labs/goversion/workflows/Test/badge.svg?branch=main)
-[![Go Report Card](https://goreportcard.com/badge/github.com/khulnasoft-labs/goversion)](https://goreportcard.com/report/github.com/khulnasoft-labs/goversion)
-![GitHub](https://img.shields.io/github/license/khulnasoft-labs/goversion)
+![Test](https://github.com/khulnasoft-lab/goversion/workflows/Test/badge.svg?branch=main)
+[![Go Report Card](https://goreportcard.com/badge/github.com/khulnasoft-lab/goversion)](https://goreportcard.com/report/github.com/khulnasoft-lab/goversion)
+![GitHub](https://img.shields.io/github/license/khulnasoft-lab/goversion)
 
 goversion is a library for parsing versions and version constraints, and verifying versions against a set of constraints.
 goversion can sort a collection of versions properly, handles prerelease versions, etc.
@@ -132,7 +132,7 @@ c.Check(v) // true
 Note that this is different from the behavior of npm.
 `>= 2.0.0-alpha` allows pre-releases in the 2.0.0 version only, if they are greater than or equal to alpha.
 So, 2.0.0-beta would be allowed, while 2.1.0-alpha would not.
-You can use [go-npm-version](https://github.com/khulnasoft-labs/go-npm-version) for npm version comparion.
+You can use [go-npm-version](https://github.com/khulnasoft-lab/go-npm-version) for npm version comparion.
 It strictly follows the npm rules.
 
 If you want to include pre-releases even with no pre-releases constraint, you can pass `semver.WithPreRelease(true)` as an argument of `semver.NewConstraints`
