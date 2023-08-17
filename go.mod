@@ -1,4 +1,4 @@
-module github.com/khulnasoft-labs/goversion
+module github.com/khulnasoft-lab/goversion
 
 go 1.20
 
