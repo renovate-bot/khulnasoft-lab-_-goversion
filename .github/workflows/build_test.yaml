@@ -22,4 +22,4 @@ jobs:
 
       - name: Test example client
         run: go run .
-        working-directory: example/client
+        working-directory: example/version
