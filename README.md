@@ -1,7 +1,9 @@
 # goversion
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/khulnasoft-lab/goversion.svg)](https://pkg.go.dev/github.com/khulnasoft-lab/goversion)
+
 [![Go Report Card](https://goreportcard.com/badge/github.com/khulnasoft-lab/goversion)](https://goreportcard.com/report/github.com/khulnasoft-lab/goversion)
+
 ![GitHub](https://img.shields.io/github/license/khulnasoft-lab/goversion)
 
 goversion is a library for parsing versions and version constraints, and verifying versions against a set of constraints.
