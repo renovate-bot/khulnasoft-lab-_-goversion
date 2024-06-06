@@ -8,8 +8,8 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/khulnasoft-lab/goversion/pkg/part"
-	"github.com/khulnasoft-lab/goversion/pkg/prerelease"
+	"github.com/khulnasoft-lab/go-version/pkg/part"
+	"github.com/khulnasoft-lab/go-version/pkg/prerelease"
 )
 
 var (

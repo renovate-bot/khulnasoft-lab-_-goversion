@@ -1,13 +1,13 @@
-# goversion
+# go-version
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/khulnasoft-lab/goversion.svg)](https://pkg.go.dev/github.com/khulnasoft-lab/goversion) 
-[![Go Report Card](https://goreportcard.com/badge/github.com/khulnasoft-lab/goversion)](https://goreportcard.com/report/github.com/khulnasoft-lab/goversion) 
-![GitHub](https://img.shields.io/github/license/khulnasoft-lab/goversion)
+[![Go Reference](https://pkg.go.dev/badge/github.com/khulnasoft-lab/go-version.svg)](https://pkg.go.dev/github.com/khulnasoft-lab/go-version) 
+[![Go Report Card](https://goreportcard.com/badge/github.com/khulnasoft-lab/go-version)](https://goreportcard.com/report/github.com/khulnasoft-lab/go-version) 
+![GitHub](https://img.shields.io/github/license/khulnasoft-lab/go-version)
 
-goversion is a library for parsing versions and version constraints, and verifying versions against a set of constraints.
-goversion can sort a collection of versions properly, handles prerelease versions, etc.
+go-version is a library for parsing versions and version constraints, and verifying versions against a set of constraints.
+go-version can sort a collection of versions properly, handles prerelease versions, etc.
 
-goversion provides two packages:
+go-version provides two packages:
 - [semver](./pkg/semver)
     - [Semantic Versioning](https://semver.org/)
     - MAJOR.MINOR.PATCH-PRERELEASE+BUILDMETADATA (e.g. 1.1.3-alpha+110)

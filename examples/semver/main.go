@@ -5,7 +5,7 @@ import (
 	"log"
 	"sort"
 
-	"github.com/khulnasoft-lab/goversion/pkg/semver"
+	"github.com/khulnasoft-lab/go-version/pkg/semver"
 )
 
 func main() {
